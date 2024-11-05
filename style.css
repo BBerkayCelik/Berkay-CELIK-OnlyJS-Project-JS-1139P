@@ -1,0 +1,36 @@
+body{
+    font-size: 1.02rem;
+    background-image: url(assets/1280x800.png);
+    background-size: cover;
+}
+
+.scores{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.team-1, .team-2 {
+    text-align:center;
+    padding: 50px;
+}
+
+#score1, #score2 {
+    font-size: 5rem;
+}
+
+button{
+    margin: 20px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    border-color: white;
+}
+
+.team-1, .team-2{
+    color: white;
+}
+
+#score1, #score2{
+    color: white;
+}
